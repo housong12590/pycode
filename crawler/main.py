@@ -2,7 +2,6 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 import sys
 
 from crawler.main_window import Ui_MainWindow
-from crawler.login import Ui_Form
 
 count = 0
 
@@ -21,5 +20,4 @@ if __name__ == '__main__':
     mainWindow.show()
     ui.btn_search.clicked.connect(search)
     ui.search_key.text()
-    mainWindow.statusBar().showMessage("数量上的变化")
     sys.exit(app.exec())

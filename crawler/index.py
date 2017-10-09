@@ -74,5 +74,7 @@ def format_json(data):
 
 # get_data()
 
-result = get_html_text(base_url, data=values)
-print(json.loads(result))
+# result = get_html_text(base_url, data=values)
+# print(json.loads(result))
+v = "d420d27c5d7f3d3d9a024cb72f861e0be418e133226642575fd517dd536fdff4bed2996cb19459628e86a0bcacdb0ca4797ecd03694009e9b18ea5ca5ea22a42"
+print(len(v))
